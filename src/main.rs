@@ -36,3 +36,13 @@ fn test_start_application() {
 fn test_ignored() {
     println!("This test is ignored")
 }
+
+#[test]
+fn test_add_again() -> Result<(), String> {
+    let result = add(1, 2);
+    if result == 3 {
+        Ok(())
+    } else {
+        Err("1 + 2 should be 3".to_string())
+    }
+}
