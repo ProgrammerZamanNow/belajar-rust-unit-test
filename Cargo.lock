@@ -5,3 +5,7 @@ version = 3
 [[package]]
 name = "belajar-rust-unit-test"
 version = "0.1.0"
+
+[[package]]
+name = "hello"
+version = "0.1.0"
