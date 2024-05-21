@@ -30,3 +30,9 @@ fn start_application(host: &str, port: u16) {
 fn test_start_application() {
     start_application("localhost", 8080)
 }
+
+#[test]
+#[ignore]
+fn test_ignored() {
+    println!("This test is ignored")
+}
